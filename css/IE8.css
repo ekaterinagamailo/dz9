@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'League Gothic Regular';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*----------------START OF HEADER---------------*/
+.header--main {
+   background: url('../img/bg_image.jpg') center top  no-repeat;
+   height: 846px;
+}
+
+.header {
+   width: 960px;
+   margin: 0 auto;
+   padding-top: 69px;
+}
+
+.logo {
+
+   width: auto;
+}
+
+.menu {
+   width: auto;
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.menu__item {
+   display: inline;
+}
+
+.menu__link {
+   padding-right: 52px;
+   padding-top: 5px;
+   font-family: 'League Gothic Regular',Tahoma,sans-serif;
+   font-size: 24px;
+   color: black;
+   text-decoration: underline;
+   text-align: right;
+}
+
+.menu__link:link {
+   color: black;
+   text-decoration: none;
+}
+
+.menu__link:hover {
+   color: #edbfff;
+   text-decoration: underline;
+}
+
+.menu__link--nested {
+   color:white;
+}
+
+
+.phone_smooth {
+   position: absolute;
+   left: 57%;
+   top: 343px;
+}
+
+.phone {
+   position: absolute;
+   left: 61.5%;
+   top: 261px;
+}
+
+.play_button {
+   position: absolute;
+   left: 65%;
+   top: 410px;
+}
+
+.arrow_left {
+   position: absolute;
+   left: 6.5%;
+   top: 457px;
+}
+
+.arrow_right {
+   position: absolute;
+   left: 92%;
+   top: 457px;
+}
+
+.icon_load {
+   position: absolute;
+   left: 1152px;
+   top: 770px;
+}
+/*----------------END OF SECTION---------------*/
+
+
+
+/*----------------START OF FIGURE---------------*/
+
+.figure--main {
+  background: url('../img/fone.png') no-repeat;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  top: 279px;
+}
+
+.figure {
+   max-width: 960px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.text {
+   width: 55%;
+   color: white;
+   position: absolute;
+   top: 79px;
+}
+
+.text h1 {
+   font-family: 'League Gothic Regular', Tahoma,sans-serif;
+   font-size: 59px;
+   line-height: 56px;
+}
+
+ .text h2 {
+   font-family: 'League Gothic Regular', Tahoma,sans-serif;
+   font-size: 32px;
+   color: #edbfff;
+   line-height: 38px;
+ }
+
+.text p {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   line-height: 24px;
+ }
+/*----------------END OF FIGURE---------------*/
+
+
+
+
+/*----------------START OF SECTION---------------*/
+.section--main {
+   width: 100%;
+   height: 340px;
+   border-top: 1px solid black;
+   background: rgb(116,80,131);
+   background: -moz-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(116,80,131,1)), color-stop(100%, rgba(50,37,57,1)));
+   background: -webkit-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%);
+   background: -o-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%);
+   background: -ms-linear-gradient(top, rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%);
+   background: linear-gradient(to bottom, rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539', GradientType=0 );
+}
+
+.section {
+   max-width: 960px;
+   box-sizing: border-box;
+   margin: 0 auto;
+   padding-top: 69px;
+   padding-bottom: 114px;
+}
+
+.section__box {
+   display: block;
+   width: 30%;
+   color: white;
+   overflow-y: hidden;
+}
+
+.section__box--comments {
+   margin-left: 5.4%;
+   margin-right: 4.6%;
+}
+
+.section__h1 {
+   display: block;
+   line-height: 43px;
+   font-size: 30px;
+   font-family: 'League Gothic Regular', Tahoma,sans-serif;
+   text-transform: uppercase;
+   padding-left: 22%;
+   background: url('../img/setting_icon.png') 0 0  no-repeat;
+}
+
+.section__h1--2 {
+   background: url('../img/chat.png') 0 0  no-repeat;
+}
+
+.section__h1--3 {
+   background: url('../img/music.png') 0 0  no-repeat;
+}
+
+.section__icon {
+   display: none;
+}
+
+.section__p {
+   display: block;
+   height: 148px;
+   overflow: hidden;
+   font-size: 16px;
+   line-height: 24px;
+   font-family: 'Open Sans',sans-serif;
+}
+
+.section__p--padding {
+   padding-left: 21.5%;
+}
+
+.section__link {
+   padding-right: 13px;
+   font-family: 'League Gothic Regular', Tahoma,sans-serif;
+   font-size: 18px;
+   float: right;
+   text-decoration: none;
+   color: white;
+}
+
+.section__link:hover {
+   text-shadow: 1px 1px 2px white, 0 0 1em white;
+}
+/*----------------END OF SECTION---------------*/
+
+
+
+
+/*----------------START OF MAIN---------------*/
+.main--main{
+   background-color: #f9f9f9;
+   width: 100%;
+   height: 486px;
+}
+
+.main {
+   position: relative;
+   max-width: 960px;
+   margin: 0 auto;
+   padding-top: 100px;
+}
+
+.main__image {
+   position: absolute;
+   top: 119px;
+   left:10px;
+   }
+
+.main__start,.main__updates {
+   width: 47%;
+   display: block;
+   box-sizing: border-box;
+}
+
+.main__start {
+   margin-right: 5%;
+   margin-left: 1%;
+   padding:32px 4% 40px 5.5%;
+   height: 294px;
+   background: url('../img/message_form.png') center center no-repeat;
+}
+
+.main__h1 {
+   color: #454545;
+   font-family: 'League Gothic Regular', Tahoma,sans-serif;
+   font-size: 30px;
+   margin-bottom: 5px;
+}
+
+.main__h1 span {
+   color: #edbfff;
+}
+
+.main__h1--2 {
+   margin-bottom: 0;
+   margin-top: 30px;
+}
+
+.main__p {
+   display: block;
+   height: 150px;
+   color: #454545;
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   line-height: 24px;
+   overflow: hidden;
+}
+.main__p--list {
+   height: auto;
+}
+.main__p span {
+   font-family: 'Open Sans',sans-serif;
+   font-weight: bolder;
+}
+
+.main__item {
+   padding-left: 15%;
+   margin-top: 17px;
+   background: url('../img/circle_1.png') 0 0 no-repeat;
+}
+
+.main__item--2 {
+   background: url('../img/circle_2.png') 0  no-repeat;
+   margin-top: 16px;
+}
+
+.main__item--3 {
+   background: url('../img/circle_3.png') 0 0 no-repeat;
+}
+
+.main__link {
+   float: right;
+   font-family: 'League Gothic Regular', Tahoma,sans-serif;
+   font-size: 18px;
+   color:#454545;
+   text-decoration: none;
+   margin-top: 23px;
+   padding-right: 5%;
+ }
+
+.main__link:hover {
+   text-shadow: 1px 1px 2px #454545, 0 0 1em #454545;
+}
+
+.icon_load_2 {
+   position: absolute;
+   left: 20%;
+   top: 395px;
+}
+/*----------------END OF MAIN---------------*/
+
+
+
+/*----------------START OF BRANDS---------------*/
+.brands {
+   width: 100%;
+   height: 120px;
+   background-color: #f9f9f9;
+   border-top: 1px solid #e6e6e6;
+}
+
+.brands__logo {
+   max-width: 960px;
+   margin: 0 auto;
+   padding-top: 25px;
+   padding-left: 1.5%;
+}
+
+.brands__logo--1,.brands__logo--2,.brands__logo--3,.brands__logo--4,.brands__logo--5,.brands__logo--6 {
+   float: left;
+   padding-left: 7%;
+}
+
+
+.brands__logo--5 {
+   padding-top: 22px;
+}
+
+.brands__logo--6 {
+   padding-top: 2px;
+
+}
+/*----------------END OF BRANDS---------------*/
+
+
+
+/*----------------START OF ARTICLE---------------*/
+.article--main {
+   background-color: #ececec;
+   width: 100%;
+   height: 397px;
+   border-top: 1px solid #d8d8d8;
+}
+
+.article {
+   width: 960px;
+   margin: 0 auto;
+}
+
+.section__box--pigbull, .section__box--rcom, .section__box--categ  {
+   color: #787878;
+   margin-top: 97px;
+   height: 207px;
+}
+
+.section__box--rcom {
+   margin-left: 5%;
+   margin-right: 5%;
+   }
+
+.section__span {
+   font-size: 16px;
+   font-style: italic;
+   line-height: 48px;
+}
+
+.section__h2 {
+   font-size: 30px;
+   font-family: 'League Gothic Regular', Tahoma,sans-serif;
+   line-height: 37px;
+}
+/*----------------END OF SECTION---------------*/
+
+
+
+/*----------------START OF FOOTER---------------*/
+.footer--main {
+   background-image: url('../img/bg_footer2.png');
+   background-color: black;
+   width: 100%;
+   height: 115px;
+}
+
+.footer {
+   width: 960px;
+   margin: 0 auto;
+   padding-top: 37px;
+ }
+
+.menu--footer {
+   float: left;
+}
+
+.menu__link--footer {
+   font-size: 20px;
+   padding-top:8px;
+   padding-right: 43px;
+}
+
+.copyright {
+   float: right;
+   padding-top: 14px;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 12px;
+}
+
+.copyright span {
+   font-weight: bold;
+   font-size: 14px;
+}
+/*----------------------END OF FOOTER--------------*/
