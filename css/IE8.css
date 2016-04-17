@@ -10,6 +10,10 @@
 }
 
 /*----------------START OF HEADER---------------*/
+body {
+   overflow-x: hidden;
+}
+
 .header--main {
    background: url('../img/bg_image.jpg') center top  no-repeat;
    height: 846px;
